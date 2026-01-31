@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         <div className="flex-1 flex justify-center items-center">
-          <div className="bg-white w-70  p-5 rounded-xl border shadow-[8px_8px_0px_rgba(0,0,0,1)]">
+          <div className="bg-white w-90  p-5 rounded-xl border shadow-[8px_8px_0px_rgba(0,0,0,1)]">
             <img
               src={banner}
               alt="illustration-article"
@@ -23,7 +23,7 @@ function App() {
               These languages are the backbone of every website, defining
               structure, content, and presentation
             </p>
-            <div className="flex gap-1">
+            <div className="flex gap-2">
               <img src={avatar} alt="user-avatar" className="w-5" />
               <p className="flex items-center font-bold text-sm">Greg Hooper</p>
             </div>
@@ -34,7 +34,7 @@ function App() {
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Your Name Here</a>.
+          . Coded by <a href="#">Ijiebor Bethany</a>.
         </div>
       </div>
     </>
